@@ -78,6 +78,7 @@ body {
     "main"
     "other"
     "support"
+    "contact"
     "footer";
 }
 
@@ -546,6 +547,25 @@ a.detailButton:hover::before {
 #support > h3 {
   font-weight: 500;
   font-size: 30px;
+}
+
+#contact {
+  grid-area: contact;
+  background-color: #fff;
+  max-width: 900px;
+  width: calc(100% - 30px);
+  margin: 50px auto 100px;
+  color: #243D7D;
+}
+
+#contact > h3 {
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+}
+
+#contact p:first-of-type {
+  margin-top: 50px;
 }
 
 /* PC全般（今後整理） */
